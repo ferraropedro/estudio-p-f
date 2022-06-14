@@ -108,7 +108,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 .conteiner figure{
     position: relative;
@@ -200,6 +200,21 @@ section{
 .serviciosabajo{
     margin: 45px;
 }
+
+
+.icono a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.icono a i:hover{
+    color: aqua;
+    transform: scale(1.1);
+    transition: ease-in-out .1s;
+}
+
 
 
 @media screen and (max-width:700px){
